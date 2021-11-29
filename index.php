@@ -84,7 +84,7 @@
                 Livewire
               </div>
               <div class="chip">
-                <img src="images/technology/jQuery.png" alt="jQuery">
+                <img src="images/technology/jquery.png" alt="jQuery">
                 jQuery
               </div>
               <div class="chip">
@@ -125,7 +125,7 @@
             <h5>Frank Catamo </h5><span> @<?php echo date("Y");  ?></span>
           </div>
           <div class="col s4 m4 l4">
-            <a href="www.linkedin.com/in/frank-catamo">
+            <a href="https://www.linkedin.com/in/frank-catamo">
               <img src="images/linkedin.png" style="width:32px" alt="Logo linkedin">
             </a>
           </div>
