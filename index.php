@@ -125,7 +125,9 @@
             <h5>Frank Catamo </h5><span> @<?php echo date("Y");  ?></span>
           </div>
           <div class="col s4 m4 l4">
-            <img src="images/linkedin.png" style="width:32px" alt="Logo linkedin">
+            <a href="www.linkedin.com/in/frank-catamo">
+              <img src="images/linkedin.png" style="width:32px" alt="Logo linkedin">
+            </a>
           </div>
         </footer>
       <!--JavaScript at end of body for optimized loading-->
