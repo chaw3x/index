@@ -18,20 +18,20 @@
         <nav>
           <div class="nav-wrapper color-principal">
             <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menú</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a class="btnMenu" href="#quiensoy">Conocome</a></li>
+              <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
               <li><a class="btnMenu" href="#proyectos">Proyectos</a></li>
-              <li><a class="btnMenu" href="#tecnologias">Tecnologias</a></li>
-              <li><a class="btnMenu" href="#contactame">Contactame</a></li>
+              <li><a class="btnMenu" href="#tecnologias">Tecnologías</a></li>
+              <li><a class="btnMenu" href="#contactame">Contáctame</a></li>
             </ul>
           </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
-          <li><a href="#quiensoy">Conocome</a></li>
+          <li><a href="#quiensoy">Conóceme</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#tecnologias">Tecnologias</a></li>
-          <li><a href="#contactame">Contactame</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#contactame">Contáctame</a></li>
         </ul>
       </section>
         <div class="parallax-container">
@@ -39,11 +39,12 @@
           <div class="center-align">
             <div class="row">
               <div class="col s12 m12 l12">
-                <h1>Hola, soy Frank Catamo</h1>
+                <h1>Hola, Soy Frank Catamo</h1>
               </div>
               <div class="col s12 m12 l12">
-                <h2 class="">Desarrollador web e Ing. en computación</h2>
-                <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span>
+                <h2 class="">Ing. En Computación y Desarrollador Web</h2>
+                <span class="Detalles">Desarrollador Web FullStack con 4 años de experiencia en LARAVEL</span>
+                <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
               </div>
             </div>
           </div>
@@ -53,23 +54,25 @@
             <div class="container">
               <div class="col s12 m12 l12">
                 <h3 class="center-align">¿Quién Soy?</h3>
-                <span class="definicion">Soy un fanático de la tecnología, me gusta el desarrollo de tecnología y la aplicación problemas. Me caracterizo por ser curioso y con interés es aprender del mundo tecnológico.</span>
+                <span class="definicion">Soy un Ingeniero en computación egresado de la <a href="http://www.uft.edu.ve/" class="link"> UFT, </a> me desenvuelvo como desarrollador FullStack en tecnologías como Laravel, Livewire, Javascript entre otras. He trabajado con varias áreas como Analista Service Desk nivel I y II.</span>
               </div>
             </div>
           </div>
         </div>
         <div class="parallax-container altonoventa center-align" id="proyectos">
-            <div class="parallax"><img src="images/background4.jpg" style="filter: blur(5px);"></div>
-            <div class="row container">
-              <h3 class="center-aling">Algunos proyectos</h3>
-              <span>He trabajado en los siguientes proyectos.</span>
-              <div class="carousel">
-                <a class="carousel-item" href="https://www.saludvitale.com" target="_blank"><img src="images/proyectos/SaludVitale.jpg"></a>
-                <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
-                <a class="carousel-item" href="https://www.saludvitale.com" target="_blank"><img src="images/proyectos/SaludVitale.jpg"></a>
-                <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
-              </div>
+          <div class="parallax"><img src="images/background4.jpg" style="filter: blur(5px);"></div>
+          <div class="row container">
+            <h3 class="center-aling white-font">Algunos proyectos</h3>
+            <span class="white-font">He trabajado en los siguientes proyectos.</span>
+            <div class="carousel">
+              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg"></a>
+              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
+              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg"></a>
+              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg"></a>
+              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
+              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg"></a>
             </div>
+          </div>
         </div>
         <div class="row color-cuaternario center-align" id="tecnologias">
           <div class=" container">
@@ -78,6 +81,14 @@
               <div class="chip">
                 <img src="images/technology/laravel.png" alt="Laravel">
                 Laravel
+              </div>
+              <div class="chip">
+                <img src="images/technology/js-logo.jpg" alt="Javascript">
+                Javascript
+              </div>
+              <div class="chip">
+                <img src="images/technology/php.png" alt="php">
+                PHP
               </div>
               <div class="chip">
                 <img src="images/technology/livewire.png" alt="Livewire">
@@ -90,6 +101,14 @@
               <div class="chip">
                 <img src="images/technology/materialize.png" alt="Materialize">
                 MATERIALIZE
+              </div>
+              <div class="chip">
+                <img src="images/technology/github.png" alt="Github">
+                GitHub
+              </div>
+              <div class="chip">
+                <img src="images/technology/gitLab.png" alt="GitLab">
+                GitLab
               </div>
             </div>
           </div>
