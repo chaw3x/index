@@ -18,7 +18,7 @@
         <nav>
           <div class="nav-wrapper color-principal">
             <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Menú</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
               <li><a class="btnMenu" href="#proyectos">Proyectos</a></li>
@@ -34,22 +34,20 @@
           <li><a href="#contactame">Contáctame</a></li>
         </ul>
       </section>
-        <div class="parallax-container">
+        <div class="parallax-container  valign-wrapper center-align">
           <div class="parallax"><img src="images/background.jpg"></div>
-          <div class="center-align">
-            <div class="row">
-              <div class="col s12 m12 l12">
-                <h1>Hola, Soy Frank Catamo</h1>
-              </div>
-              <div class="col s12 m12 l12">
-                <h2 class="">Ing. En Computación y Desarrollador Web</h2>
-                <span class="Detalles">Desarrollador Web FullStack con 4 años de experiencia en LARAVEL</span>
-                <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
-              </div>
+          <div class="row">
+            <div class="col s12 m12 l12">
+              <h1>Hola, Soy Frank Catamo</h1>
+            </div>
+            <div class="col s12 m12 l12">
+              <h2 class="">Ing. En Computación y Desarrollador Web</h2>
+              <span class="Detalles">Desarrollador Web FullStack con 4 años de experiencia en LARAVEL</span>
+              <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
             </div>
           </div>
         </div>
-        <div class="color-terceario row altosetenta " id="quiensoy">
+        <div class="color-terceario row altosetenta valign-wrapper" id="quiensoy">
           <div class="row">
             <div class="container">
               <div class="col s12 m12 l12">
@@ -107,7 +105,7 @@
                 GitHub
               </div>
               <div class="chip">
-                <img src="images/technology/gitLab.png" alt="GitLab">
+                <img src="images/technology/gitlab.png" alt="GitLab">
                 GitLab
               </div>
             </div>
@@ -118,35 +116,50 @@
           <div class="row container">
             <h5>Contáctame</h5>
             <div class="col s4 m4 l4">
-              <input type="text" name="nombre" value="">
               <label for="nombre" class="black-font">Nombre</label>
+              <input type="text" name="nombre" value="">
             </div>
             <div class="col s4 m4 l4">
-              <input type="text" name="email" value="">
               <label for="email" class="black-font">Correo</label>
+              <input type="text" name="email" value="">
             </div>
             <div class="col s4 m4 l4">
-              <input type="text" name="telefono" value="">
               <label for="telefono" class="black-font">Teléfono</label>
+              <input type="text" name="telefono" value="">
             </div>
             <div class="col s12 m12 l12">
-              <textarea name="mensaje" rows="8" cols="80" maxlength="300"></textarea>
               <label for="mensaje" class="black-font">Mensaje</label>
+              <textarea name="mensaje" rows="8" cols="80" maxlength="300"></textarea>
             </div>
             <div class="col s12 m12 l12">
-              <button class="btn color-cuaternario black-font" type="submit" name="button">Enviar</button>
+              <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" name="button">Enviar</button>
             </div>
           </div>
           </form>
         </div>
-        <footer class="row center-align color-principal">
-          <div class="col s8 m8 l8">
-            <h5>Frank Catamo </h5><span> @<?php echo date("Y");  ?></span>
+        <footer class="page-footer color-principal">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Frank Catamo</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Redes Sociales</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/frank-catamo"><img src="images/linkedin.png" style="width:32px" alt="Logo linkedin"></a></li>
+                  <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col s4 m4 l4">
-            <a href="https://www.linkedin.com/in/frank-catamo">
-              <img src="images/linkedin.png" style="width:32px" alt="Logo linkedin">
-            </a>
+          <div class="footer-copyright">
+            <div class="container">
+          @<?php echo date("Y");  ?> Frank Catamo
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
           </div>
         </footer>
       <!--JavaScript at end of body for optimized loading-->

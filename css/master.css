@@ -17,7 +17,7 @@
   background-color: var(--color-4);
 }
 .marginbottomcero {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .margintopcero {
     margin-top: 0px;
@@ -51,10 +51,16 @@ h1,h2{
   color: black;
   font-weight: bold;
 }
+#contactame input,textarea {
+  background-color: white;
+}
+#contactame input {
+  text-align: center;
+}
 .white-font{
   color: white;
   font-weight: bold;
-  text-shadow:1px 1px 1px #0092CA;  
+  text-shadow:1px 1px 1px #0092CA;
 }
 .altosetenta{
   height: 70vh;
