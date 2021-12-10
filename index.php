@@ -118,17 +118,17 @@
           <form class="" action="enviado.php" method="post">
           <div class="row container">
             <h5>Contáctame</h5>
-            <div class="col s4 m4 l4">
+            <div class="col s12 m4 l4">
               <label for="nombre" class="black-font">Nombre</label>
-              <input type="text" name="nombre" value="">
+              <input type="text" name="nombre">
             </div>
-            <div class="col s4 m4 l4">
+            <div class="col s12 m4 l4">
               <label for="email" class="black-font">Correo</label>
-              <input type="text" name="email" value="">
+              <input type="text" name="email">
             </div>
-            <div class="col s4 m4 l4">
+            <div class="col s12 m4 l4">
               <label for="telefono" class="black-font">Teléfono</label>
-              <input type="text" name="telefono" value="">
+              <input type="text" name="telefono">
             </div>
             <div class="col s12 m12 l12">
               <label for="mensaje" class="black-font">Mensaje</label>
