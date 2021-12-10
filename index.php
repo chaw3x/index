@@ -9,8 +9,11 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/master.css">
       <!--Let browser know website is optimized for mobile-->
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Ing. Frank Catamo</title>
+      <!-- <meta name="description" content="Portafolio personal y profesional de Frank Catamo."> -->
+      <meta name="description" content="Portafolio personal y profesional de Frank Catamo.">
       <link rel="shortcut icon" href="images/favicon.ico">
     </head>
     <body>
@@ -63,12 +66,12 @@
             <h3 class="center-aling white-font">Algunos proyectos</h3>
             <span class="white-font">He trabajado en los siguientes proyectos.</span>
             <div class="carousel">
-              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg"></a>
-              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
-              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg"></a>
-              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg"></a>
-              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg"></a>
-              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg"></a>
+              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg" alt="SaludVitale"></a>
+              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg" alt="ToyoCarrocerias"></a>
+              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg" alt="vipo360"></a>
+              <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.jpg" alt="SaludVitale"></a>
+              <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.jpg" alt="ToyoCarrocerias"></a>
+              <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.jpg" alt="vipo360"></a>
             </div>
           </div>
         </div>
