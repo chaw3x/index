@@ -33,7 +33,7 @@
 body{
   background-color: var(--color-4);
 }
-h1,h2{
+.title1,.title2{
   color:var(--color-4);
   font-weight: bold;
   text-shadow: 2px 2px 0px #222831, 5px 4px 0px rgba(0,0,0,0.15), 4px 4px 2px #0092CA;

@@ -9,7 +9,7 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/master.css">
       <!--Let browser know website is optimized for mobile-->
-
+      <script src="js/jquery-3.6.0.min.js" charset="utf-8"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Ing. Frank Catamo</title>
       <!-- <meta name="description" content="Portafolio personal y profesional de Frank Catamo."> -->
@@ -41,10 +41,10 @@
           <div class="parallax"><img src="images/background.jpg"></div>
           <div class="row">
             <div class="col s12 m12 l12">
-              <h1>Hola, Soy Frank Catamo</h1>
+              <h1 class="title1">Hola, Soy Frank Catamo</h1>
             </div>
             <div class="col s12 m12 l12">
-              <h2 class="">Ing. En Computación y Desarrollador Web</h2>
+              <h2 class="title2">Ing. En Computación y Desarrollador Web</h2>
               <span class="Detalles">Desarrollador Web FullStack con 4 años de experiencia en LARAVEL</span>
               <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
             </div>
@@ -79,63 +79,79 @@
           <div class=" container">
             <h5>TECNOLOGIAS</h5>
             <div class="col s12 m12 l12 center-align">
+              <a href="https://laravel.com/">
               <div class="chip">
-                <img src="images/technology/laravel.png" alt="Laravel">
-                Laravel
+                  <img src="images/technology/laravel.png" alt="Laravel">
+                  Laravel
               </div>
+            </a>
+            <a href="https://www.javascript.com/">
               <div class="chip">
-                <img src="images/technology/js-logo.jpg" alt="Javascript">
-                Javascript
+                  <img src="images/technology/js-logo.jpg" alt="Javascript">
+                  Javascript
               </div>
+            </a>
+            <a href="https://www.php.net/">
               <div class="chip">
-                <img src="images/technology/php.png" alt="php">
-                PHP
+                  <img src="images/technology/php.png" alt="php">
+                  PHP
               </div>
+            </a>
+            <a href="https://laravel-livewire.com/">
               <div class="chip">
-                <img src="images/technology/livewire.png" alt="Livewire">
-                Livewire
+                  <img src="images/technology/livewire.png" alt="Livewire">
+                  Livewire
               </div>
+            </a>
+            <a href="https://jquery.com/">
               <div class="chip">
-                <img src="images/technology/jquery.png" alt="jQuery">
-                jQuery
+                  <img src="images/technology/jquery.png" alt="jQuery">
+                  jQuery
               </div>
+            </a>
+            <a href="https://materializecss.com/">
               <div class="chip">
-                <img src="images/technology/materialize.png" alt="Materialize">
-                MATERIALIZE
+                  <img src="images/technology/materialize.png" alt="Materialize">
+                  MATERIALIZE
               </div>
+            </a>
+            <a href="https://github.com/">
               <div class="chip">
-                <img src="images/technology/github.png" alt="Github">
-                GitHub
+                  <img src="images/technology/github.png" alt="Github">
+                  GitHub
               </div>
+            </a>
+            <a href="https://gitlab.com/">
               <div class="chip">
-                <img src="images/technology/gitlab.png" alt="GitLab">
-                GitLab
+                  <img src="images/technology/gitlab.png" alt="GitLab">
+                  GitLab
               </div>
+            </a>
             </div>
           </div>
         </div>
         <div class="row color-terceario center-align" id="contactame">
-          <form class="" action="enviado.php" method="post">
+          <form class="" id="contacto" action="" method="post">
           <div class="row container">
             <h5>Contáctame</h5>
             <div class="col s12 m4 l4">
               <label for="nombre" class="black-font">Nombre</label>
-              <input type="text" name="nombre">
+              <input type="text" name="nombre" id="nombre">
             </div>
             <div class="col s12 m4 l4">
               <label for="email" class="black-font">Correo</label>
-              <input type="text" name="email">
+              <input type="email" name="email" id="email">
             </div>
             <div class="col s12 m4 l4">
               <label for="telefono" class="black-font">Teléfono</label>
-              <input type="text" name="telefono">
+              <input type="tel" name="telefono" id="telefono">
             </div>
             <div class="col s12 m12 l12">
               <label for="mensaje" class="black-font">Mensaje</label>
-              <textarea name="mensaje" rows="8" cols="80" maxlength="300"></textarea>
+              <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
             </div>
             <div class="col s12 m12 l12">
-              <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" name="button">Enviar</button>
+              <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" id="BotonEnviar" name="button">Enviar</button>
             </div>
           </div>
           </form>
@@ -168,6 +184,7 @@
       <!--JavaScript at end of body for optimized loading-->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script type="text/javascript">
         $(document).ready(function(){
           $('.sidenav').sidenav();
@@ -175,5 +192,6 @@
            $('.carousel').carousel();
         });
       </script>
+      <script src="js/master.js" charset="utf-8"></script>
     </body>
   </html>
