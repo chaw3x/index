@@ -62,3 +62,16 @@ $(document).ready(function() {
     }
   });
 });
+posicionarMenu();
+$(window).scroll(function() {    
+    posicionarMenu();
+});
+function posicionarMenu() {
+    // var altura_del_header = $('.marginbottomcero').outerHeight(true);
+    // var altura_del_menu = $('.menu').outerHeight(true);
+    if ($(window).scrollTop() >= 6){
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
+}

@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
       <meta charset="utf-8">
@@ -17,7 +16,7 @@
       <link rel="shortcut icon" href="images/favicon.ico">
     </head>
     <body>
-      <section class="row marginbottomcero">
+      <section class="row marginbottomcero menu">
         <nav>
           <div class="nav-wrapper color-principal">
             <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
@@ -37,7 +36,7 @@
           <li><a href="#contactame">Contáctame</a></li>
         </ul>
       </section>
-        <div class="parallax-container  valign-wrapper center-align">
+        <div class="parallax-container valign-wrapper center-align header">
           <div class="parallax"><img src="images/background.jpg"></div>
           <div class="row">
             <div class="col s12 m12 l12">
@@ -193,5 +192,5 @@
         });
       </script>
       <script src="js/master.js" charset="utf-8"></script>
-    </body>
-  </html>
+  </body>
+</html>

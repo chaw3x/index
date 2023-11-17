@@ -98,3 +98,6 @@ body{
       font-size: 1.6rem;
   }
 }
+
+/* .menu{ height:80px; width:100%; background:#333; color:white; text-align:center} */
+.fixed{position:fixed; top:0; width: 100%; z-index: 1000;}
