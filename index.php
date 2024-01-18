@@ -58,7 +58,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> 
         <div class="parallax-container altonoventa center-align" id="proyectos">
           <div class="parallax"><img src="images/background4.webp" style="filter: blur(5px);"></div>
           <div class="row container">
