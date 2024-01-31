@@ -44,17 +44,17 @@
             </div>
             <div class="col s12 m12 l12">
               <h2 class="title2">Ing. En Computación y Desarrollador Web</h2>
-              <span class="Detalles">Desarrollador Web FullStack con 4 años de experiencia en LARAVEL</span>
+              <span class="Detalles">Desarrollador Web FullStack con <?php echo date('Y')-2018 ?> años de experiencia en LARAVEL</span>
               <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
             </div>
           </div>
         </div>
-        <div class="color-terceario row altosetenta valign-wrapper" id="quiensoy">
+        <div class="color-terceario row altosetenta valign-wrapper quiensoy" id="quiensoy">
           <div class="row">
             <div class="container">
               <div class="col s12 m12 l12">
-                <h3 class="center-align">¿Quién Soy?</h3>
-                <span class="definicion">Soy un Ingeniero en computación egresado de la <a href="http://www.uft.edu.ve/" class="link"> UFT, </a> me desenvuelvo como desarrollador FullStack en tecnologías como Laravel, Livewire, Javascript entre otras. He trabajado con varias áreas como Analista Service Desk nivel I y II.</span>
+                <h3 class="center-align short">¿Quién Soy?</h3>
+                <span class="definicion short">Soy un Ingeniero en computación egresado de la <a href="http://www.uft.edu.ve/" class="link"> UFT, </a> me desenvuelvo como desarrollador FullStack en tecnologías como Laravel, Livewire, Javascript entre otras. He trabajado con varias áreas como Analista Service Desk nivel I y II.</span>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="row color-cuaternario center-align" id="tecnologias">
+        <div class="row color-cuaternario center-align textura1" id="tecnologias">
           <div class=" container">
             <h5>TECNOLOGIAS</h5>
             <div class="col s12 m12 l12 center-align">
@@ -129,24 +129,24 @@
             </div>
           </div>
         </div>
-        <div class="row color-terceario center-align" id="contactame">
+        <div class="row color-terceario center-align message" id="contactame">
           <form class="" id="contacto" action="" method="post">
           <div class="row container">
             <h5>Contáctame</h5>
             <div class="col s12 m4 l4">
-              <label for="nombre" class="black-font">Nombre</label>
+              <label for="nombre" class="black-font fontShadow">Nombre</label>
               <input type="text" name="nombre" id="nombre">
             </div>
             <div class="col s12 m4 l4">
-              <label for="email" class="black-font">Correo</label>
+              <label for="email" class="black-font fontShadow">Correo</label>
               <input type="email" name="email" id="email">
             </div>
             <div class="col s12 m4 l4">
-              <label for="telefono" class="black-font">Teléfono</label>
+              <label for="telefono" class="black-font fontShadow">Teléfono</label>
               <input type="tel" name="telefono" id="telefono">
             </div>
             <div class="col s12 m12 l12">
-              <label for="mensaje" class="black-font">Mensaje</label>
+              <label for="mensaje" class="black-font fontShadow">Mensaje</label>
               <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
             </div>
             <div class="col s12 m12 l12">
