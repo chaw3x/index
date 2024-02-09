@@ -40,10 +40,10 @@
           <div class="parallax"><img src="images/background.webp"></div>
           <div class="row">
             <div class="col s12 m12 l12">
-              <h1 class="title1">Hola, Soy Frank Catamo</h1>
+              <h1 class="title1 shadows">Hola, Soy Frank Catamo</h1>
             </div>
             <div class="col s12 m12 l12">
-              <h2 class="title2">Ing. En Computación y Desarrollador Web</h2>
+              <h2 class="title2 shadows">Ing. En Computación y Desarrollador Web</h2>
               <span class="Detalles">Desarrollador Web FullStack con <?php echo date('Y')-2018 ?> años de experiencia en LARAVEL</span>
               <!-- <span class="Detalles">MANEJO DISTINTAS TECNOLOGIAS COMO LARAVEL, BOOSTRAP, LIVEWIRE, MATERIALIZE, JAVASCRIPT, CSS, HTML5, ENTRE OTRAS.</span> -->
             </div>
@@ -53,8 +53,8 @@
           <div class="row">
             <div class="container">
               <div class="col s12 m12 l12">
-                <h3 class="center-align short">¿Quién Soy?</h3>
-                <span class="definicion short">Soy un Ingeniero en computación egresado de la <a href="http://www.uft.edu.ve/" class="link"> UFT, </a> me desenvuelvo como desarrollador FullStack en tecnologías como Laravel, Livewire, Javascript entre otras. He trabajado con varias áreas como Analista Service Desk nivel I y II.</span>
+                <h3 class="center-align short white-font shadows">¿Quién Soy?</h3>
+                <span class="definicion short white-font shadows">Soy un Ingeniero en computación egresado de la <a href="http://www.uft.edu.ve/" class="link"><span class='white-font'> UFT, </span></a> me desenvuelvo como desarrollador FullStack en tecnologías como Laravel, Livewire, Javascript entre otras. He trabajado con varias áreas como Analista Service Desk nivel I y II.</span>
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@
         <div class="parallax-container altonoventa center-align" id="proyectos">
           <div class="parallax"><img src="images/background4.webp" style="filter: blur(5px);"></div>
           <div class="row container">
-            <h3 class="center-aling white-font">Algunos proyectos</h3>
-            <span class="white-font">He trabajado en los siguientes proyectos.</span>
+            <h3 class="center-aling white-font shadows">Algunos proyectos</h3>
+            <span class="white-font font-size shadows">He trabajado en los siguientes proyectos.</span>
             <div class="carousel">
               <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.webp" alt="SaludVitale"></a>
               <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.webp" alt="ToyoCarrocerias"></a>
@@ -77,7 +77,7 @@
         <div class="row color-cuaternario center-align textura1" id="tecnologias">
           <div class=" container">
             <h5>TECNOLOGIAS</h5>
-            <div class="col s12 m12 l12 center-align">
+            <div class="col s12 m12 l12 center-align sombreado">
               <a href="https://laravel.com/">
               <div class="chip">
                   <img src="images/technology/laravel.png" alt="Laravel">

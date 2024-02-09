@@ -36,17 +36,20 @@ body{
 .title1, .title2{
   color: var(--color-4);
 }
-.title1:hover, .title2:hover{
-  color:var(--color-4);
+.shadows:hover{
   font-weight: bold;
   text-shadow: 2px 2px 0px #222831, 5px 4px 0px rgba(0,0,0,0.15), 4px 4px 2px #0092CA;
 }
+.font-size{
+  font-size: 125%;
+}
 .Detalles{
-  color: var(--color-1);
+  color: var(--color-4);
   font-weight: bold;
-  text-shadow:1px 1px 1px #0092CA;
+  font-size: 125%;
 }
 .Detalles:hover{
+  text-shadow:1px 1px 1px #0092CA;
   font-size: 150%;
 }
 .link{
@@ -64,6 +67,10 @@ body{
 }
 #contactame input {
   text-align: center;
+}
+.chip:hover{
+  font-weight: bold;
+  background-color: var(--color-3);
 }
 .white-font{
   color: white;
@@ -126,13 +133,13 @@ body{
   background-size: cover;
   background-attachment:inherit;
 }
-.message{
-  background-image: url('../images/sendmessage.webp');
+/* .message{ */
+  /* background-image: url('../images/sendmessage.webp'); */
   /* background-repeat: */
-  background-size: cover;
+  /* background-size: cover;
   background-attachment:inherit;
   
-}
+} */
 .short:hover{
   color: var(--color-4);
 }
