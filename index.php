@@ -5,7 +5,7 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
       <link type="text/css" rel="stylesheet" href="css/master.css">
       <!--Let browser know website is optimized for mobile-->
       <script src="js/jquery-3.6.0.min.js" charset="utf-8"></script>
@@ -154,19 +154,19 @@
             <!-- <div class="col s12 m12 l12">
               <label for="nombre" class="black-font fontShadow">Nombre</label>
               <input type="text" name="nombre" id="nombre">
-            </div> -->
-            <!-- <div class="col s12 m12 l12">
+            </div> 
+            <div class="col s12 m12 l12">
               <label for="email" class="black-font fontShadow">Correo</label>
               <input type="email" name="email" id="email">
-            </div> -->
-            <!-- <div class="col s12 m12 l12">
+            </div>
+            <div class="col s12 m12 l12">
               <label for="telefono" class="black-font fontShadow">Teléfono</label>
               <input type="tel" name="telefono" id="telefono">
             </div>
             <div class="col s12 m12 l12">
               <label for="mensaje" class="black-font fontShadow">Mensaje</label>
               <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
-            </div>-->
+            </div> -->
             <div class="col s12 m12 l12">
               <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" id="BotonEnviar" name="button">Enviar</button>
             </div> 
