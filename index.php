@@ -129,29 +129,47 @@
             </div>
           </div>
         </div>
-        <div class="row color-terceario center-align message" id="contactame">
+        <div class="row color-terceario center-align message Ochentaporciento" id="contactame">
           <form class="" id="contacto" action="" method="post">
           <div class="row container">
             <h5>Contáctame</h5>
-            <div class="col s12 m4 l4">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="nombre" type="text" class="validate">
+                <label class="active" for="nombre" style="color:black; font-weight: bold;"> Nombres</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate">
+                <label class="active" for="email" style="color:black; font-weight: bold;"> Correo</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="telefono" type="tel" class="validate">
+                <label class="active" for="telefono" style="color:black; font-weight: bold;"> Teléfono</label>
+              </div>
+            </div>
+            <div class="form-floating">
+              <label for="mensaje" style="color:black; font-weight: bold;">Mensajes</label>
+              <textarea class="form-control active" placeholder="Ingrese su mensaje aqui" id="mensaje" style="height: 100px"></textarea>
+            </div>
+            <!-- <div class="col s12 m12 l12">
               <label for="nombre" class="black-font fontShadow">Nombre</label>
               <input type="text" name="nombre" id="nombre">
-            </div>
-            <div class="col s12 m4 l4">
+            </div> -->
+            <!-- <div class="col s12 m12 l12">
               <label for="email" class="black-font fontShadow">Correo</label>
               <input type="email" name="email" id="email">
-            </div>
-            <div class="col s12 m4 l4">
+            </div> -->
+            <!-- <div class="col s12 m12 l12">
               <label for="telefono" class="black-font fontShadow">Teléfono</label>
               <input type="tel" name="telefono" id="telefono">
             </div>
             <div class="col s12 m12 l12">
               <label for="mensaje" class="black-font fontShadow">Mensaje</label>
               <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
-            </div>
+            </div>-->
             <div class="col s12 m12 l12">
               <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" id="BotonEnviar" name="button">Enviar</button>
-            </div>
+            </div> 
           </div>
           </form>
         </div>
