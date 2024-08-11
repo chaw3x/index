@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\InformationSend;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -36,8 +37,12 @@ class EmailController extends Controller
      */
     public function store(Request $request)
     {
-        Mail::to('ing.frankcatamo@gmail.com')->send(new InformationSend($request));
-        dd($request->all());
+        try {
+            Mail::to('ing.frankcatamo@gmail.com')->send(new InformationSend($request));
+            return redirect('/')->with('status', 'Correo enviado con éxito.');
+        } catch (Exception $e) {
+            return view('welcome',['error' => 'Algo salió mal al intentar enviar el correo.']);
+        }
     }
 
     /**
@@ -71,7 +76,7 @@ class EmailController extends Controller
      */
     public function update(Request $request, $id)
     { 
-        
+        //        
     }
 
     /**

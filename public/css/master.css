@@ -146,3 +146,16 @@ body{
 .short:hover{
   color: var(--color-4);
 }
+.alertMessage {
+  width: 20%;
+  position: fixed;
+  z-index: 100;
+  top: 10%;
+  left: 77%;
+}
+.btnhove:focus{
+  background-color: #dff3d8!important;
+}
+.btnhove:hover{
+  background-color: #dff3d8!important;
+}

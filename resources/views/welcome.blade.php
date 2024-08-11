@@ -1,25 +1,7 @@
 
 @include('include.head')
-  <section class="row marginbottomcero menu">
-    <nav>
-      <div class="nav-wrapper color-principal">
-        <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
-            <li><a class="btnMenu" href="#proyectos">Proyectos</a></li>
-            <li><a class="btnMenu" href="#tecnologias">Tecnologías</a></li>
-            <li><a class="btnMenu" href="#contactame">Contáctame</a></li>
-        </ul>
-      </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#quiensoy">Conóceme</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#tecnologias">Tecnologías</a></li>
-        <li><a href="#contactame">Contáctame</a></li>
-    </ul>
-  </section>
+@include('include.menu')
+@include('include.message')
   <div class="parallax-container valign-wrapper center-align header">
       <div class="parallax"><img src="images/background.webp"></div>
       <div class="row">
@@ -153,7 +135,7 @@
         <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
       </div> -->
       <div class="col s12 m12 l12">
-        <button class="btn color-cuaternario black-font waves-effect waves-teal" type="submit" id="BotonEnviar" name="button">Enviar</button>
+        <button class="btn btnhove color-cuaternario black-font waves-effect waves-green" type="submit" id="BotonEnviar" name="button">Enviar</button>
       </div> 
     </div>
     </form>

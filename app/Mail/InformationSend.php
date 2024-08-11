@@ -32,7 +32,7 @@ class InformationSend extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Information Send',
+            subject: 'Correo enviado desde la pagina web '.$this->data->email,
         );
     }
 
