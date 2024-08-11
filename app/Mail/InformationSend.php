@@ -12,15 +12,16 @@ use Illuminate\Queue\SerializesModels;
 class InformationSend extends Mailable
 {
     use Queueable, SerializesModels;
-
+    
+    public $data;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($request)
     {
-        //
+        $this->data=$request;
     }
 
     /**
@@ -43,7 +44,7 @@ class InformationSend extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'email.information',
         );
     }
 

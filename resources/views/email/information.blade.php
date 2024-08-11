@@ -1,21 +1,12 @@
 @include('include.head')
 <body>
-    <p>Hola! Se ha enviado un mensaje {{ $distressCall->created_at }}.</p>
-    <p>Este es el mensaje enviado por el usuario</p>
-    <ul>
-        <li>Nombre: {{ $distressCall->user->name }}</li>
-        <li>Teléfono: {{ $distressCall->user->phone }}</li>
-        <li>DNI: {{ $distressCall->user->dni }}</li>
-    </ul>
-    <p>Y esta es la posición reportada:</p>
-    <ul>
-        <li>Latitud: {{ $distressCall->lat }}</li>
-        <li>Longitud: {{ $distressCall->lng }}</li>
-        <li>
-            <a href="https://www.google.com/maps/dir/{{ $distressCall->lat }},{{ $distressCall->lng }}">
-                Ver en Google Maps
-            </a>
-        </li>
-    </ul>
+    <p>
+        Hola este usuario <b>{{$data->nombre}}</b> y su correo es <b>{{$data->email}}</b>
+        <br>
+        con telefono <b>{{$data->telefono}}</b> y este mensaje:
+    </p>
+    <p>
+        <b>{{$data->mensaje}}</b>
+    </p>
 </body>
 @include('include.footer')

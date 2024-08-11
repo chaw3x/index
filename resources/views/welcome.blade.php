@@ -1,25 +1,24 @@
 
 @include('include.head')
-  <body>
-    <section class="row marginbottomcero menu">
-      <nav>
-        <div class="nav-wrapper color-principal">
-          <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-              <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
-              <li><a class="btnMenu" href="#proyectos">Proyectos</a></li>
-              <li><a class="btnMenu" href="#tecnologias">Tecnologías</a></li>
-              <li><a class="btnMenu" href="#contactame">Contáctame</a></li>
-          </ul>
-        </div>
-      </nav>
-      <ul class="sidenav" id="mobile-demo">
-          <li><a href="#quiensoy">Conóceme</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#tecnologias">Tecnologías</a></li>
-          <li><a href="#contactame">Contáctame</a></li>
-      </ul>
+  <section class="row marginbottomcero menu">
+    <nav>
+      <div class="nav-wrapper color-principal">
+        <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
+            <li><a class="btnMenu" href="#proyectos">Proyectos</a></li>
+            <li><a class="btnMenu" href="#tecnologias">Tecnologías</a></li>
+            <li><a class="btnMenu" href="#contactame">Contáctame</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#quiensoy">Conóceme</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#contactame">Contáctame</a></li>
+    </ul>
   </section>
   <div class="parallax-container valign-wrapper center-align header">
       <div class="parallax"><img src="images/background.webp"></div>
@@ -115,26 +114,27 @@
     </div>
   </div>
   <div class="row color-terceario center-align message Ochentaporciento" id="contactame">
-    <form class="" id="contacto" action="" method="post">
+    <form class="" id="contacto" action="{{url('sendmail')}}" method="post">
+      @csrf
     <div class="row container">
       <h5>Contáctame</h5>
       <div class="row">
         <div class="input-field col s12">
-          <input id="nombre" type="text" class="validate">
+          <input id="nombre" name="nombre" type="text" class="validate">
           <label class="active" for="nombre" style="color:black; font-weight: bold;"> Nombres</label>
         </div>
         <div class="input-field col s6">
-          <input id="email" type="email" class="validate">
+          <input id="email" name="email" type="email" class="validate">
           <label class="active" for="email" style="color:black; font-weight: bold;"> Correo</label>
         </div>
         <div class="input-field col s6">
-          <input id="telefono" type="tel" class="validate">
+          <input id="telefono" name="telefono" type="tel" class="validate">
           <label class="active" for="telefono" style="color:black; font-weight: bold;"> Teléfono</label>
         </div>
       </div>
       <div class="form-floating">
         <label for="mensaje" style="color:black; font-weight: bold;">Mensajes</label>
-        <textarea class="form-control active" placeholder="Ingrese su mensaje aqui" id="mensaje" style="height: 100px"></textarea>
+        <textarea class="form-control active" placeholder="Ingrese su mensaje aqui" id="mensaje" name="mensaje" style="height: 100px"></textarea>
       </div>
       <!-- <div class="col s12 m12 l12">
         <label for="nombre" class="black-font fontShadow">Nombre</label>

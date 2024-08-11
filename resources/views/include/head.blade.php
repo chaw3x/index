@@ -1,6 +1,5 @@
 <!DOCTYPE html>
   <html>
-    @include('include.head')
     <body>
       <head>
         <meta charset="utf-8">
