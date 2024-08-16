@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\InformationSend;
 use Exception;
+use App\Http\Requests\EmailRequest;
+use App\Mail\InformationSend;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -35,8 +36,8 @@ class EmailController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(EmailRequest $request)
+    {        
         try {
             Mail::to('ing.frankcatamo@gmail.com')->send(new InformationSend($request));
             return redirect('/')->with('status', 'Correo enviado con éxito.');

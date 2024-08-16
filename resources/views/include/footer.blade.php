@@ -8,7 +8,7 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Redes Sociales</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/frank-catamo"><img src="images/linkedin.png" style="width:32px" alt="Logo linkedin"></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/frank-catamo"><img src="{{asset('images/linkedin.png')}}" style="width:32px" alt="Logo linkedin"></a></li>
           <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
           <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
           <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
