@@ -27,6 +27,7 @@ class EmailRequest extends FormRequest
             'nombre'  => 'required|max:255',
             'mensaje' => 'required|max:255',
             'email'   => 'required|email:rfc,dns,strict',
+            'mensaje' => 'required|string|max:255',
             'telefono'=> 'required|numeric',
         ];
     }

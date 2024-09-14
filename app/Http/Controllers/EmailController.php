@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Exception;
 use App\Http\Requests\EmailRequest;
 use App\Mail\InformationSend;
+use App\Models\Email;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -38,12 +39,21 @@ class EmailController extends Controller
      */
     public function store(EmailRequest $request)
     {        
-        try {
+        // try {
+            $request->mensaje = strip_tags($request->mensaje);
+            $ip=(new Controller)->obtenerIP();
+            $mmailDB=new Email();            
+            $mmailDB->name=$request->nombre;
+            $mmailDB->email=$request->email;
+            $mmailDB->phone=$request->telefono;
+            $mmailDB->message=$request->mensaje;
+            $mmailDB->ip=$ip;
+            $mmailDB->save();
             Mail::to('ing.frankcatamo@gmail.com')->send(new InformationSend($request));
             return redirect('/')->with('status', 'Correo enviado con éxito.');
-        } catch (Exception $e) {
-            return view('welcome',['error' => 'Algo salió mal al intentar enviar el correo.']);
-        }
+        // } catch (Exception $e) {
+        //     return view('welcome',['error' => 'Algo salió mal al intentar enviar el correo.']);
+        // }
     }
 
     /**

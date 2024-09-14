@@ -10,4 +10,9 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    public function obtenerIP()
+    {
+        $ip = request()->ip(); // Utiliza la función helper de Laravel para obtener la IP
+        return $ip;
+    }
 }
