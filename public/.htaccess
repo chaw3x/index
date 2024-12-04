@@ -20,5 +20,5 @@
     RewriteRule ^ index.php [L]
 
     RewriteCond %{HTTP_HOST} ^www.frankcatamo.com [NC]
-    RewriteRule ^(.*)$ http://frankcatamo.com/$1 [L,R=301]
+    RewriteRule ^(.*)$ https://frankcatamo.com/$1 [L,R=301]
 </IfModule>
