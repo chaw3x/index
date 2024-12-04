@@ -105,16 +105,19 @@ body{
 .definicion{
   font-size: xx-large;
 }
+@media only screen and (max-width: 600px) {
+    .Ochentaporciento{
+        width: 100%!important;
+      }
+    h1,h2{
+        font-size: 3.2rem;
+    }
+    span.definicion {
+        font-size: 1.6rem;
+    }
+}
 .Ochentaporciento{
   width: 600px;
-}
-@media only screen and (max-width: 600px) {
-  h1,h2{
-    font-size: 3.2rem;
-  }
-  span.definicion {
-      font-size: 1.6rem;
-  }
 }
 
 /* .menu{ height:80px; width:100%; background:#333; color:white; text-align:center} */
@@ -141,7 +144,6 @@ body{
   /* background-repeat: */
   /* background-size: cover;
   background-attachment:inherit;
-  
 } */
 .short:hover{
   color: var(--color-4);
