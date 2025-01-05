@@ -35,5 +35,17 @@ $(document).ready(function(){
 });
 </script>
 <script src="js/master.js" charset="utf-8"></script>
+<script>
+    grecaptcha.ready( function(){
+        grecaptcha.execute(
+            '6Ldm8a4qAAAAAE_Cw_bnj3F7vMub8EjGoDgeE7g7',{ action: 'formulario' }
+        ).then( function( respuesta_token ){
+            const itoken = document.getElementById('reToken');
+            const btn = document.getElementById('btn');
+            itoken.value = respuesta_token;
+            btn.disabled = false;
+        })
+    });
+</script>
 </body>
 </html>

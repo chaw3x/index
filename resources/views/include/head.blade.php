@@ -15,4 +15,5 @@
         <!-- <meta name="description" content="Portafolio personal y profesional de Frank Catamo."> -->
         <meta name="description" content="Portafolio personal y profesional de Frank Catamo.">
         <link rel="shortcut icon" href="images/favicon.ico">
+        <script src="https://www.google.com/recaptcha/api.js?render=6Ldm8a4qAAAAAE_Cw_bnj3F7vMub8EjGoDgeE7g7"></script>
     </head>

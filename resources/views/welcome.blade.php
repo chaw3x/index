@@ -24,7 +24,7 @@
               </div>
           </div>
       </div>
-  </div> 
+  </div>
   <div class="parallax-container altonoventa center-align" id="proyectos">
     <div class="parallax"><img src="images/background4.webp" style="filter: blur(5px);"></div>
     <div class="row container">
@@ -98,6 +98,7 @@
   <div class="row color-terceario center-align message Ochentaporciento" id="contactame">
     <form class="" id="contacto" action="{{url('sendmail')}}" method="post">
       @csrf
+      <input type="hidden" name="reToken" id='reToken'>
     <div class="row container">
       <h5>Contáctame</h5>
       <div class="row">
@@ -121,7 +122,7 @@
       <!-- <div class="col s12 m12 l12">
         <label for="nombre" class="black-font fontShadow">Nombre</label>
         <input type="text" name="nombre" id="nombre">
-      </div> 
+      </div>
       <div class="col s12 m12 l12">
         <label for="email" class="black-font fontShadow">Correo</label>
         <input type="email" name="email" id="email">
@@ -136,7 +137,7 @@
       </div> -->
       <div class="col s12 m12 l12">
         <button class="btn btnhove color-cuaternario black-font waves-effect waves-green" type="submit" id="BotonEnviar" name="button">Enviar</button>
-      </div> 
+      </div>
     </div>
     </form>
   </div>

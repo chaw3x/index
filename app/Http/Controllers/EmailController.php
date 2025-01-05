@@ -38,11 +38,15 @@ class EmailController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(EmailRequest $request)
-    {        
+    {
+        $captcha =(new Controller)->ValidateRecaptcha($request->reToken);
+        if(!$captcha){
+            return redirect()->back()->with('status', 'Token invalido.');
+        }
         // try {
             $request->mensaje = strip_tags($request->mensaje);
             $ip=(new Controller)->obtenerIP();
-            $mmailDB=new Email();            
+            $mmailDB=new Email();
             $mmailDB->name=$request->nombre;
             $mmailDB->email=$request->email;
             $mmailDB->phone=$request->telefono;
@@ -86,8 +90,8 @@ class EmailController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    { 
-        //        
+    {
+        //
     }
 
     /**
