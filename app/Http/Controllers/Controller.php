@@ -24,7 +24,7 @@ class Controller extends BaseController
         $response = curl_exec($ch);
         curl_close($ch);
         $jsonResponse = json_decode($response);
-        if ($jsonResponse->success === true && $jsonResponse->) {
+        if ($jsonResponse->success === true && $jsonResponse->score>0.5) {
             return true;
         } else {
             return false;

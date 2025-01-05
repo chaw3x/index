@@ -119,22 +119,6 @@
         <label for="mensaje" style="color:black; font-weight: bold;">Mensajes</label>
         <textarea class="form-control active" placeholder="Ingrese su mensaje aqui" id="mensaje" name="mensaje" style="height: 100px"></textarea>
       </div>
-      <!-- <div class="col s12 m12 l12">
-        <label for="nombre" class="black-font fontShadow">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
-      </div>
-      <div class="col s12 m12 l12">
-        <label for="email" class="black-font fontShadow">Correo</label>
-        <input type="email" name="email" id="email">
-      </div>
-      <div class="col s12 m12 l12">
-        <label for="telefono" class="black-font fontShadow">Teléfono</label>
-        <input type="tel" name="telefono" id="telefono">
-      </div>
-      <div class="col s12 m12 l12">
-        <label for="mensaje" class="black-font fontShadow">Mensaje</label>
-        <textarea name="mensaje" rows="8" cols="80" maxlength="300" id="mensaje"></textarea>
-      </div> -->
       <div class="col s12 m12 l12">
         <button class="btn btnhove color-cuaternario black-font waves-effect waves-green" type="submit" id="BotonEnviar" name="button">Enviar</button>
       </div>
