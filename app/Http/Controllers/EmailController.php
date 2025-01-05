@@ -41,7 +41,7 @@ class EmailController extends Controller
     {
         $captcha =(new Controller)->ValidateRecaptcha($request->reToken);
         if(!$captcha){
-            return redirect()->back()->with('error', 'Token invalido.');
+            return redirect()->back()->with(['error'=>'Token invalido.']);
         }
         // try {
             $request->mensaje = strip_tags($request->mensaje);
