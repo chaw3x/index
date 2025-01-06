@@ -95,7 +95,49 @@
       </div>
     </div>
   </div>
-  <div class="row color-terceario center-align message Ochentaporciento" id="contactame">
+  <div class="contact_container" style="display: flex; justify-content: center; text-align: center; margin-bottom: 10px">
+    <div class="contact_inter" style="width: 80%; background-color: var(--color-3); border-radius: 20px;">
+        <div class="contact-pic" style="width: 40%;float: left;">
+            <img class="imagenEmail" src="{{ asset('images/sendmessage.webp') }}" alt="Send email" style="width: 80%; margin-top: 20%; border-radius: 10px; box-shadow: rgb(0, 0, 0) 10px 10px 25px 0px;">
+        </div>
+        <div class="contact-content" style="width: 60%;float: right;">
+            <h5 style="color: #fff; font-weight:bold">Contáctame</h5>
+            <form class="" id="contacto" action="{{url('sendmail')}}" method="post">
+                @csrf
+                <input type="hidden" name="reToken" id='reToken'>
+              <div class="row container">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="nombre" name="nombre" type="text" class="validate">
+                    <label class="active" for="nombre" style="color:rgb(255, 255, 255); font-weight: bold;"> Nombres</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="email" name="email" type="email" class="validate">
+                    <label class="active" for="email" style="color:rgb(255, 255, 255); font-weight: bold;"> Correo</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <input id="telefono" name="telefono" type="tel" class="validate">
+                    <label class="active" for="telefono" style="color:rgb(255, 255, 255); font-weight: bold;"> Teléfono</label>
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <label for="mensaje" style="color:rgb(255, 255, 255); font-weight: bold; font-size:20px">Mensaje</label>
+                  <textarea class="form-control active" placeholder="Ingrese su mensaje" id="mensaje" name="mensaje" style="height: 100px"></textarea>
+                </div>
+                <div class="col s12 m12 l12">
+                  <button class="btn btnhove color-cuaternario black-font waves-effect waves-green" type="submit" id="BotonEnviar" name="button">Enviar</button>
+                </div>
+              </div>
+            </form>
+        </div>
+    </div>
+  </div>
+  <style>
+    .imagenEmail:hover {
+        border-radius: 10px; box-shadow: rgb(0, 0, 0) 10px 10px 10px 0px!important;
+    }
+  </style>
+  {{-- <div class="row color-terceario center-align message Ochentaporciento" id="contactame">
     <form class="" id="contacto" action="{{url('sendmail')}}" method="post">
       @csrf
       <input type="hidden" name="reToken" id='reToken'>
@@ -124,5 +166,5 @@
       </div>
     </div>
     </form>
-  </div>
+  </div> --}}
 @include('include.footer')

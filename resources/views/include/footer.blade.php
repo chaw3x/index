@@ -41,9 +41,9 @@ $(document).ready(function(){
             '6Ldm8a4qAAAAAE_Cw_bnj3F7vMub8EjGoDgeE7g7',{ action: 'formulario' }
         ).then( function( respuesta_token ){
             const itoken = document.getElementById('reToken');
-            const btn = document.getElementById('btn');
+            // const btn = document.getElementById('btn');
             itoken.value = respuesta_token;
-            btn.disabled = false;
+            // btn.disabled = false;
         })
     });
 </script>
