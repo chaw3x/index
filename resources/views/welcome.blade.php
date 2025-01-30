@@ -46,49 +46,49 @@
       <div class="col s12 m12 l12 center-align sombreado">
         <a href="https://laravel.com/">
         <div class="chip">
-            <img src="images/technology/laravel.png" alt="Laravel">
+            <img src="images/technology/laravel.webp" alt="Laravel">
             Laravel
         </div>
       </a>
       <a href="https://www.javascript.com/">
         <div class="chip">
-            <img src="images/technology/js-logo.jpg" alt="Javascript">
+            <img src="images/technology/js-logo.webp" alt="Javascript">
             Javascript
         </div>
       </a>
       <a href="https://www.php.net/">
         <div class="chip">
-            <img src="images/technology/php.png" alt="php">
+            <img src="images/technology/php.webp" alt="php">
             PHP
         </div>
       </a>
       <a href="https://laravel-livewire.com/">
         <div class="chip">
-            <img src="images/technology/livewire.png" alt="Livewire">
+            <img src="images/technology/livewire.webp" alt="Livewire">
             Livewire
         </div>
       </a>
       <a href="https://jquery.com/">
         <div class="chip">
-            <img src="images/technology/jquery.png" alt="jQuery">
+            <img src="images/technology/jquery.webp" alt="jQuery">
             jQuery
         </div>
       </a>
       <a href="https://materializecss.com/">
         <div class="chip">
-            <img src="images/technology/materialize.png" alt="Materialize">
+            <img src="images/technology/materialize.webp" alt="Materialize">
             MATERIALIZE
         </div>
       </a>
       <a href="https://github.com/">
         <div class="chip">
-            <img src="images/technology/github.png" alt="Github">
+            <img src="images/technology/github.webp" alt="Github">
             GitHub
         </div>
       </a>
       <a href="https://gitlab.com/">
         <div class="chip">
-            <img src="images/technology/gitlab.png" alt="GitLab">
+            <img src="images/technology/gitlab.webp" alt="GitLab">
             GitLab
         </div>
       </a>

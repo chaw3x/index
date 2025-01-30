@@ -1,7 +1,7 @@
 <section class="row marginbottomcero menu">
     <nav>
         <div class="nav-wrapper color-principal">
-            <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.png" alt="Logotipo"> </a>
+            <a href="#!" class="brand-logo "> <img class="logomenu" src="images/logo.webp" alt="Logotipo"> </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="btnMenu" href="#quiensoy">Conóceme</a></li>
