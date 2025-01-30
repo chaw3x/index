@@ -3,6 +3,7 @@
     <body>
       <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
