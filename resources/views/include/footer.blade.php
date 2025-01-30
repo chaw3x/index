@@ -24,7 +24,8 @@
   </div>
 </footer>
 <!--JavaScript at end of body for optimized loading-->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--Let browser know website is optimized for mobile-->
+<script src="js/jquery-3.6.0.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript">
