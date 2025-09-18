@@ -3,7 +3,7 @@
 @include('include.menu')
 @include('include.message')
   <div class="parallax-container valign-wrapper center-align header">
-      <div class="parallax"><img src="images/background.webp" alt="parallax"></div>
+      <div class="parallax"><img src="{{ asset('images/background.webp') }}" alt="parallax"></div>
       <div class="row">
           <div class="col s12 m12 l12">
               <h1 class="title1 shadows">Hola, Soy Frank Catamo</h1>
@@ -26,17 +26,17 @@
       </div>
   </div>
   <div class="parallax-container altonoventa center-align" id="proyectos">
-    <div class="parallax"><img src="images/background4.webp" style="filter: blur(5px);" alt="background"></div>
+    <div class="parallax"><img src="{{ asset('images/background4.webp') }}" style="filter: blur(5px);" alt="background"></div>
     <div class="row container">
       <h3 class="center-aling white-font shadows">Algunos proyectos</h3>
       <span class="white-font font-size shadows">He trabajado en los siguientes proyectos.</span>
       <div class="carousel">
-          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.webp" alt="SaludVitale"></a>
-          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.webp" alt="ToyoCarrocerias"></a>
-          <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.webp" alt="vipo360"></a> -->
-          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="images/proyectos/SaludVitale.webp" alt="SaludVitale"></a>
-          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/ToyoCarrocerias.webp" alt="ToyoCarrocerias"></a>
-        <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="images/proyectos/vipo360.webp" alt="vipo360"></a> -->
+          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="SaludVitale"></a>
+          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="ToyoCarrocerias"></a>
+          <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/vipo360.webp') }}" alt="vipo360"></a> -->
+          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="SaludVitale"></a>
+          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="ToyoCarrocerias"></a>
+        <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/vipo360.webp') }}" alt="vipo360"></a> -->
       </div>
     </div>
   </div>

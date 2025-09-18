@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Ing. Frank Catamo</title>
         <meta name="description" content="Portafolio personal y profesional de Frank Catamo.">
-        <link rel="icon" href="{{ asset('images/favicon.ico') }}">
+        <link rel="icon" href="{{ asset('images/icon.ico') }}">
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
         <script src="https://www.google.com/recaptcha/api.js?render=6Ldm8a4qAAAAAE_Cw_bnj3F7vMub8EjGoDgeE7g7"></script>
     </head>
