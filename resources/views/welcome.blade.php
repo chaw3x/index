@@ -31,11 +31,11 @@
       <h3 class="center-aling white-font shadows">Algunos proyectos</h3>
       <span class="white-font font-size shadows">He trabajado en los siguientes proyectos.</span>
       <div class="carousel">
-          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="SaludVitale"></a>
-          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="ToyoCarrocerias"></a>
+          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="Proyecto SaludVitale"></a>
+          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="Proyecto ToyoCarrocerias"></a>
           <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/vipo360.webp') }}" alt="vipo360"></a> -->
-          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="SaludVitale"></a>
-          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="ToyoCarrocerias"></a>
+          <a class="carousel-item" href="https://www.saludvitale.com" target="_blank" title="Proyecto"><img src="{{ asset('images/proyectos/SaludVitale.webp') }}" alt="Proyecto SaludVitale"></a>
+          <a class="carousel-item" href="https://www.toyocarrocerias.com" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/ToyoCarrocerias.webp') }}" alt="Proyecto ToyoCarrocerias"></a>
         <!-- <a class="carousel-item" href="https://vipo360.com/" target="_blank" title="Proyecto como freelance"><img src="{{ asset('images/proyectos/vipo360.webp') }}" alt="vipo360"></a> -->
       </div>
     </div>
@@ -46,49 +46,49 @@
       <div class="col s12 m12 l12 center-align sombreado">
         <a href="https://laravel.com/">
         <div class="chip">
-            <img src="images/technology/laravel.webp" alt="Laravel">
+            <img src="images/technology/laravel.webp" alt="Habilidad en Laravel">
             Laravel
         </div>
       </a>
       <a href="https://www.javascript.com/">
         <div class="chip">
-            <img src="images/technology/js-logo.webp" alt="Javascript">
+            <img src="images/technology/js-logo.webp" alt="Habilidad en Javascript">
             Javascript
         </div>
       </a>
       <a href="https://www.php.net/">
         <div class="chip">
-            <img src="images/technology/php.webp" alt="php">
+            <img src="images/technology/php.webp" alt="Habilidad en PHP">
             PHP
         </div>
       </a>
       <a href="https://laravel-livewire.com/">
         <div class="chip">
-            <img src="images/technology/livewire.webp" alt="Livewire">
+            <img src="images/technology/livewire.webp" alt="Habilidad en Livewire">
             Livewire
         </div>
       </a>
       <a href="https://jquery.com/">
         <div class="chip">
-            <img src="images/technology/jquery.webp" alt="jQuery">
+            <img src="images/technology/jquery.webp" alt="Habilidad en jQuery">
             jQuery
         </div>
       </a>
       <a href="https://materializecss.com/">
         <div class="chip">
-            <img src="images/technology/materialize.webp" alt="Materialize">
+            <img src="images/technology/materialize.webp" alt="Manejo de Materialize">
             MATERIALIZE
         </div>
       </a>
       <a href="https://github.com/">
         <div class="chip">
-            <img src="images/technology/github.webp" alt="Github">
+            <img src="images/technology/github.webp" alt="Manejo de Github">
             GitHub
         </div>
       </a>
       <a href="https://gitlab.com/">
         <div class="chip">
-            <img src="images/technology/gitlab.webp" alt="GitLab">
+            <img src="images/technology/gitlab.webp" alt="Manejo de GitLab">
             GitLab
         </div>
       </a>
@@ -98,7 +98,7 @@
   <div class="contact_container" style="display: flex; justify-content: center; text-align: center; margin-bottom: 10px">
     <div class="contact_inter" style="width: 80%; background-color: var(--color-3); border-radius: 20px;">
         <div class="contact-pic" style="width: 40%;float: left;">
-            <img class="imagenEmail" src="{{ asset('images/sendmessage.webp') }}" alt="Send email" style="width: 80%; margin-top: 20%; border-radius: 10px; box-shadow: rgb(0, 0, 0) 10px 10px 25px 0px;">
+            <img class="imagenEmail" src="{{ asset('images/sendmessage.webp') }}" alt="Enviar correo" style="width: 80%; margin-top: 20%; border-radius: 10px; box-shadow: rgb(0, 0, 0) 10px 10px 25px 0px;">
         </div>
         <div class="contact-content" style="width: 60%;float: right;">
             <h5 style="color: #fff; font-weight:bold">Contáctame</h5>
