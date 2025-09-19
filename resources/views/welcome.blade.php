@@ -26,7 +26,7 @@
       </div>
   </div>
   <div class="parallax-container altonoventa center-align" id="proyectos">
-    <div class="parallax"><img src="{{ asset('images/background4.webp') }}" style="filter: blur(5px);" alt="background"></div>
+    <div class="parallax"><img src="{{ asset('images/background4.webp') }}"  fetchpriority="high" style="filter: blur(5px); transform: translate3d(-50%, -55.4278px, 0px);" alt="background"></div>
     <div class="row container">
       <h3 class="center-aling white-font shadows">Algunos proyectos</h3>
       <span class="white-font font-size shadows">He trabajado en los siguientes proyectos.</span>
