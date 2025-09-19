@@ -42,7 +42,7 @@
   </div>
   <div class="row color-cuaternario center-align textura1" id="tecnologias">
     <div class=" container">
-      <h5>TECNOLOGIAS</h5>
+      <h4 class="h5">TECNOLOGIAS</h4>
       <div class="col s12 m12 l12 center-align sombreado">
         <a href="https://laravel.com/">
         <div class="chip">
