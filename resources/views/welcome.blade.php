@@ -3,7 +3,7 @@
 @include('include.menu')
 @include('include.message')
   <div class="parallax-container valign-wrapper center-align header">
-      <div class="parallax"><img src="{{ asset('images/background.webp') }}" alt="parallax"></div>
+      <div class="parallax"><img src="{{ asset('images/background.webp') }}" fetchpriority="high" alt="parallax"></div>
       <div class="row">
           <div class="col s12 m12 l12">
               <h1 class="title1 shadows">Hola, Soy Frank Catamo</h1>
