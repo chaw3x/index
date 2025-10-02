@@ -26,5 +26,16 @@
 
         <!-- Defer reCAPTCHA script -->
         <script src="https://www.google.com/recaptcha/api.js?render=6Ldm8a4qAAAAAE_Cw_bnj3F7vMub8EjGoDgeE7g7" defer></script>
+
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJBGN0GCJ1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BJBGN0GCJ1');
+        </script>
     </head>
     <body>
